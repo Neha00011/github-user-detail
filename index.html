@@ -20,11 +20,16 @@
       align-items: center;
     }
     .card {
-      height: 280px;
-      width: 300px;
-      background-color: rgb(124, 70, 124);
+      height: 400px;
+      width: 350px;
       border-radius: 20px;
       padding: 4px 4px 4px 9px;
+    }
+    img{
+      margin-top: o.7cm;
+      height:120px;
+      width:180px;
+      margin-bottom: 1cm;
     }
   </style>
   <body>
@@ -33,12 +38,19 @@
       <br />
       <h4 id="subheading">and see the magic</h4>
     </div>
+    <div id="input-part">
     <form id="main-part">
       <label for="enterField" id="">enter user id</label>
       <input type="text" id="enterField" class="enterField" />
       <input type="submit" id="subt" value="Submit" class="Submit" />
     </form>
-    <div class="card" id="my-card"></div>
+  </div>
+    <div class="card" id="card">
+      <div id="avt">
+        <img src="avatar.png" alt=" ">
+        </div>
+        <div id="my-card"></div>
+    </div>
   </body>
   <script src="index.js"></script>
 </html>
