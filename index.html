@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>User Details</title>
+  </head>
+  <style>
+    body {
+      background-color: #212121;
+      color: #fff;
+    }
+    #heading,
+    #subheading,
+    #main-part {
+      display: flex;
+      margin-bottom: 0cm;
+      margin-top: 0.5cm;
+      justify-content: center;
+      align-items: center;
+    }
+    .card {
+      height: 280px;
+      width: 300px;
+      background-color: rgb(124, 70, 124);
+      border-radius: 20px;
+      padding: 4px 4px 4px 9px;
+    }
+  </style>
+  <body>
+    <div class="start">
+      <h2 id="heading">Enter your github user id</h2>
+      <br />
+      <h4 id="subheading">and see the magic</h4>
+    </div>
+    <form id="main-part">
+      <label for="enterField" id="">enter user id</label>
+      <input type="text" id="enterField" class="enterField" />
+      <input type="submit" id="subt" value="Submit" class="Submit" />
+    </form>
+    <div class="card" id="my-card"></div>
+  </body>
+  <script src="index.js"></script>
+</html>
